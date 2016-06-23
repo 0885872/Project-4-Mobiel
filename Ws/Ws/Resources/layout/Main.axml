@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <Button
+        android:id="@+id/INformatie"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/Informatie" />
+    <Button
+        android:text="@string/OpslaanLocatie"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/OpslaanLocatie" />
+    <Button
+        android:text="@string/BekijkLocatie"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/BekijkLocatieButton" />
+</LinearLayout>
