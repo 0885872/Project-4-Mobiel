@@ -1,0 +1,3 @@
+C:\Users\vboz\Source\Repos\Project-4-Mobiel\App\bin\Debug\CSVParser.exe.config
+C:\Users\vboz\Source\Repos\Project-4-Mobiel\App\obj\Debug\CSVParser.exe
+C:\Users\vboz\Source\Repos\Project-4-Mobiel\App\obj\Debug\CSVParser.pdb
