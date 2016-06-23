@@ -1,0 +1,79 @@
+c:\users\vboz\documents\visual studio 2015\Projects\Ws\Ws\bin\Debug\Ws.dll
+c:\users\vboz\documents\visual studio 2015\Projects\Ws\Ws\bin\Debug\Ws.pdb
+c:\users\vboz\documents\visual studio 2015\Projects\Ws\Ws\bin\Debug\Ws.Ws.apk
+c:\users\vboz\documents\visual studio 2015\Projects\Ws\Ws\bin\Debug\Ws.Ws-Signed.apk
+c:\users\vboz\documents\visual studio 2015\Projects\Ws\Ws\obj\Debug\Ws.csprojResolveAssemblyReference.cache
+c:\users\vboz\documents\visual studio 2015\Projects\Ws\Ws\obj\Debug\Ws.dll
+c:\users\vboz\documents\visual studio 2015\Projects\Ws\Ws\obj\Debug\Ws.pdb
+c:\users\vboz\documents\visual studio 2015\Projects\Ws\Ws\obj\Debug\android\bin\Ws.Ws.apk
+c:\users\vboz\documents\visual studio 2015\Projects\Ws\Ws\obj\Debug\res\layout\main.xml
+c:\users\vboz\documents\visual studio 2015\Projects\Ws\Ws\obj\Debug\res\values\strings.xml
+c:\users\vboz\documents\visual studio 2015\Projects\Ws\Ws\obj\Debug\res\drawable\icon.png
+c:\users\vboz\documents\visual studio 2015\Projects\Ws\Ws\obj\Debug\R.cs.flag
+c:\users\vboz\documents\visual studio 2015\Projects\Ws\Ws\obj\Debug\uploadflags.txt
+C:\Users\vboz\Documents\Visual Studio 2015\Projects\Ws\Ws\bin\Debug\Ws.dll.mdb
+C:\Users\vboz\Documents\Visual Studio 2015\Projects\Ws\Ws\bin\Debug\Java.Interop.dll.mdb
+C:\Users\vboz\Documents\Visual Studio 2015\Projects\Ws\Ws\bin\Debug\Mono.Android.dll.mdb
+C:\Users\vboz\Documents\Visual Studio 2015\Projects\Ws\Ws\bin\Debug\mscorlib.dll.mdb
+C:\Users\vboz\Documents\Visual Studio 2015\Projects\Ws\Ws\bin\Debug\System.ComponentModel.Composition.dll.mdb
+C:\Users\vboz\Documents\Visual Studio 2015\Projects\Ws\Ws\bin\Debug\System.Core.dll.mdb
+C:\Users\vboz\Documents\Visual Studio 2015\Projects\Ws\Ws\bin\Debug\System.dll.mdb
+C:\Users\vboz\Documents\Visual Studio 2015\Projects\Ws\Ws\bin\Debug\System.Net.Http.dll.mdb
+C:\Users\vboz\Documents\Visual Studio 2015\Projects\Ws\Ws\bin\Debug\System.Runtime.Serialization.dll.mdb
+C:\Users\vboz\Documents\Visual Studio 2015\Projects\Ws\Ws\bin\Debug\System.ServiceModel.Internals.dll.mdb
+C:\Users\vboz\Documents\Visual Studio 2015\Projects\Ws\Ws\bin\Debug\System.Xml.dll.mdb
+C:\Users\vboz\Documents\Visual Studio 2015\Projects\Ws\Ws\bin\Debug\System.Xml.Linq.dll.mdb
+C:\Users\vboz\Documents\Visual Studio 2015\Projects\Ws\Ws\obj\Debug\android\assets\Java.Interop.dll.mdb
+C:\Users\vboz\Documents\Visual Studio 2015\Projects\Ws\Ws\obj\Debug\android\assets\Mono.Android.dll.mdb
+C:\Users\vboz\Documents\Visual Studio 2015\Projects\Ws\Ws\obj\Debug\android\assets\mscorlib.dll.mdb
+C:\Users\vboz\Documents\Visual Studio 2015\Projects\Ws\Ws\obj\Debug\android\assets\System.ComponentModel.Composition.dll.mdb
+C:\Users\vboz\Documents\Visual Studio 2015\Projects\Ws\Ws\obj\Debug\android\assets\System.Core.dll.mdb
+C:\Users\vboz\Documents\Visual Studio 2015\Projects\Ws\Ws\obj\Debug\android\assets\System.dll.mdb
+C:\Users\vboz\Documents\Visual Studio 2015\Projects\Ws\Ws\obj\Debug\android\assets\System.Net.Http.dll.mdb
+C:\Users\vboz\Documents\Visual Studio 2015\Projects\Ws\Ws\obj\Debug\android\assets\System.Runtime.Serialization.dll.mdb
+C:\Users\vboz\Documents\Visual Studio 2015\Projects\Ws\Ws\obj\Debug\android\assets\System.ServiceModel.Internals.dll.mdb
+C:\Users\vboz\Documents\Visual Studio 2015\Projects\Ws\Ws\obj\Debug\android\assets\System.Xml.dll.mdb
+C:\Users\vboz\Documents\Visual Studio 2015\Projects\Ws\Ws\obj\Debug\android\assets\System.Xml.Linq.dll.mdb
+C:\Users\vboz\Documents\Visual Studio 2015\Projects\Ws\Ws\obj\Debug\android\assets\Ws.dll.mdb
+C:\Users\vboz\Documents\Visual Studio 2015\Projects\Ws\Ws\obj\Debug\res\layout\layout1.xml
+C:\Users\vboz\documents\visual studio 2015\Projects\Ws\Ws\obj\Debug\Ws.dll.mdb
+C:\Users\Evelyn\Documents\GitHubVisualStudio\Project-4-Mobiel\Ws\Ws\bin\Debug\Ws.dll
+C:\Users\Evelyn\Documents\GitHubVisualStudio\Project-4-Mobiel\Ws\Ws\bin\Debug\Ws.pdb
+C:\Users\Evelyn\Documents\GitHubVisualStudio\Project-4-Mobiel\Ws\Ws\bin\Debug\Ws.Ws.apk
+C:\Users\Evelyn\Documents\GitHubVisualStudio\Project-4-Mobiel\Ws\Ws\bin\Debug\Ws.Ws-Signed.apk
+C:\Users\Evelyn\Documents\GitHubVisualStudio\Project-4-Mobiel\Ws\Ws\obj\Debug\Ws.csprojResolveAssemblyReference.cache
+C:\Users\Evelyn\Documents\GitHubVisualStudio\Project-4-Mobiel\Ws\Ws\obj\Debug\Ws.dll
+C:\Users\Evelyn\Documents\GitHubVisualStudio\Project-4-Mobiel\Ws\Ws\obj\Debug\Ws.pdb
+C:\Users\Evelyn\Documents\GitHubVisualStudio\Project-4-Mobiel\Ws\Ws\obj\Debug\android\bin\Ws.Ws.apk
+C:\Users\Evelyn\Documents\GitHubVisualStudio\Project-4-Mobiel\Ws\Ws\obj\Debug\res\layout\layout1.xml
+C:\Users\Evelyn\Documents\GitHubVisualStudio\Project-4-Mobiel\Ws\Ws\obj\Debug\res\layout\main.xml
+C:\Users\Evelyn\Documents\GitHubVisualStudio\Project-4-Mobiel\Ws\Ws\obj\Debug\res\values\strings.xml
+C:\Users\Evelyn\Documents\GitHubVisualStudio\Project-4-Mobiel\Ws\Ws\obj\Debug\res\drawable\icon.png
+C:\Users\Evelyn\Documents\GitHubVisualStudio\Project-4-Mobiel\Ws\Ws\obj\Debug\R.cs.flag
+C:\Users\Evelyn\Documents\GitHubVisualStudio\Project-4-Mobiel\Ws\Ws\obj\Debug\uploadflags.txt
+C:\Users\Evelyn\Documents\GitHubVisualStudio\Project-4-Mobiel\Ws\Ws\bin\Debug\Java.Interop.dll.mdb
+C:\Users\Evelyn\Documents\GitHubVisualStudio\Project-4-Mobiel\Ws\Ws\bin\Debug\Mono.Android.dll.mdb
+C:\Users\Evelyn\Documents\GitHubVisualStudio\Project-4-Mobiel\Ws\Ws\bin\Debug\mscorlib.dll.mdb
+C:\Users\Evelyn\Documents\GitHubVisualStudio\Project-4-Mobiel\Ws\Ws\bin\Debug\System.ComponentModel.Composition.dll.mdb
+C:\Users\Evelyn\Documents\GitHubVisualStudio\Project-4-Mobiel\Ws\Ws\bin\Debug\System.Core.dll.mdb
+C:\Users\Evelyn\Documents\GitHubVisualStudio\Project-4-Mobiel\Ws\Ws\bin\Debug\System.dll.mdb
+C:\Users\Evelyn\Documents\GitHubVisualStudio\Project-4-Mobiel\Ws\Ws\bin\Debug\System.Net.Http.dll.mdb
+C:\Users\Evelyn\Documents\GitHubVisualStudio\Project-4-Mobiel\Ws\Ws\bin\Debug\System.Runtime.Serialization.dll.mdb
+C:\Users\Evelyn\Documents\GitHubVisualStudio\Project-4-Mobiel\Ws\Ws\bin\Debug\System.ServiceModel.Internals.dll.mdb
+C:\Users\Evelyn\Documents\GitHubVisualStudio\Project-4-Mobiel\Ws\Ws\bin\Debug\System.Xml.dll.mdb
+C:\Users\Evelyn\Documents\GitHubVisualStudio\Project-4-Mobiel\Ws\Ws\bin\Debug\System.Xml.Linq.dll.mdb
+C:\Users\Evelyn\Documents\GitHubVisualStudio\Project-4-Mobiel\Ws\Ws\bin\Debug\Ws.dll.mdb
+C:\Users\Evelyn\Documents\GitHubVisualStudio\Project-4-Mobiel\Ws\Ws\obj\Debug\android\assets\Java.Interop.dll.mdb
+C:\Users\Evelyn\Documents\GitHubVisualStudio\Project-4-Mobiel\Ws\Ws\obj\Debug\android\assets\Mono.Android.dll.mdb
+C:\Users\Evelyn\Documents\GitHubVisualStudio\Project-4-Mobiel\Ws\Ws\obj\Debug\android\assets\mscorlib.dll.mdb
+C:\Users\Evelyn\Documents\GitHubVisualStudio\Project-4-Mobiel\Ws\Ws\obj\Debug\android\assets\System.ComponentModel.Composition.dll.mdb
+C:\Users\Evelyn\Documents\GitHubVisualStudio\Project-4-Mobiel\Ws\Ws\obj\Debug\android\assets\System.Core.dll.mdb
+C:\Users\Evelyn\Documents\GitHubVisualStudio\Project-4-Mobiel\Ws\Ws\obj\Debug\android\assets\System.dll.mdb
+C:\Users\Evelyn\Documents\GitHubVisualStudio\Project-4-Mobiel\Ws\Ws\obj\Debug\android\assets\System.Net.Http.dll.mdb
+C:\Users\Evelyn\Documents\GitHubVisualStudio\Project-4-Mobiel\Ws\Ws\obj\Debug\android\assets\System.Runtime.Serialization.dll.mdb
+C:\Users\Evelyn\Documents\GitHubVisualStudio\Project-4-Mobiel\Ws\Ws\obj\Debug\android\assets\System.ServiceModel.Internals.dll.mdb
+C:\Users\Evelyn\Documents\GitHubVisualStudio\Project-4-Mobiel\Ws\Ws\obj\Debug\android\assets\System.Xml.dll.mdb
+C:\Users\Evelyn\Documents\GitHubVisualStudio\Project-4-Mobiel\Ws\Ws\obj\Debug\android\assets\System.Xml.Linq.dll.mdb
+C:\Users\Evelyn\Documents\GitHubVisualStudio\Project-4-Mobiel\Ws\Ws\obj\Debug\android\assets\Ws.dll.mdb
+C:\Users\Evelyn\Documents\GitHubVisualStudio\Project-4-Mobiel\Ws\Ws\obj\Debug\Ws.dll.mdb
+C:\Users\Evelyn\Documents\GitHubVisualStudio\Project-4-Mobiel\Ws\Ws\bin\Debug\Ws.dll.mdb

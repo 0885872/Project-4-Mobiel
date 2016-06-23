@@ -1,0 +1,8 @@
+Ws.Activity1, Ws;md5571e5404bb3989138c780de2830bdba6.Activity1
+Ws.Activity1, Ws, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;md5571e5404bb3989138c780de2830bdba6.Activity1
+Ws.Activity1;md5571e5404bb3989138c780de2830bdba6.Activity1
+ws.Activity1;md5571e5404bb3989138c780de2830bdba6.Activity1
+Ws.MainActivity, Ws;md5571e5404bb3989138c780de2830bdba6.MainActivity
+Ws.MainActivity, Ws, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;md5571e5404bb3989138c780de2830bdba6.MainActivity
+Ws.MainActivity;md5571e5404bb3989138c780de2830bdba6.MainActivity
+ws.MainActivity;md5571e5404bb3989138c780de2830bdba6.MainActivity
