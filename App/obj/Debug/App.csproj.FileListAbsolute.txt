@@ -1,3 +1,4 @@
-C:\Users\vboz\Source\Repos\Project-4-Mobiel\App\bin\Debug\CSVParser.exe.config
-C:\Users\vboz\Source\Repos\Project-4-Mobiel\App\obj\Debug\CSVParser.exe
-C:\Users\vboz\Source\Repos\Project-4-Mobiel\App\obj\Debug\CSVParser.pdb
+C:\Users\Evelyn\Documents\GitHubVisualStudio\Project-4-Mobiel\App\bin\Debug\CSVParser.exe.config
+C:\Users\Evelyn\Documents\GitHubVisualStudio\Project-4-Mobiel\App\obj\Debug\CSVParser.exe
+C:\Users\Evelyn\Documents\GitHubVisualStudio\Project-4-Mobiel\App\obj\Debug\CSVParser.pdb
+C:\Users\Evelyn\Documents\GitHubVisualStudio\Project-4-Mobiel\App\obj\Debug\App.csprojResolveAssemblyReference.cache

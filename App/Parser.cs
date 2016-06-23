@@ -4,7 +4,9 @@ using System.Collections.Generic;
 
 public class Parser
 {
-    static List<List<String>> readCSV(StreamReader reader)
+    private List<String> paths;
+
+    public List<List<String>> readCSV(StreamReader reader)
     {
         List<List<String>> convertedCSV = new List<List<string>>();
 
@@ -19,14 +21,19 @@ public class Parser
         return convertedCSV;
     }
 
-    List<List<List<String>>> CVSLoader(params string[] paths)
+    public List<List<String>> CSVLoader(string filename)
+    {
+        StreamReader newReader = new StreamReader(File.OpenRead(filename));
+        return readCSV(newReader);
+    }
+
+    public List<List<List<String>>> AllCVS()
     {
         List<List<List<String>>> allLists = new List<List<List<String>>>();
 
-        for (int i = 0; i < paths.Length; i++)
+        for (int i = 0; i < paths.Count; i++)
         {
-            StreamReader newReader = new StreamReader(File.OpenRead(paths[i]));
-            List<List<String>> newList = readCSV(newReader);
+            List<List<String>> newList = CSVLoader(paths[i]);
             allLists.Add(newList);
         }
 
@@ -34,5 +41,17 @@ public class Parser
         // StreamReader diefstalReader = new StreamReader(File.OpenRead(@"C:\Users\Evelyn\Text\School\Project 4\fietsdiefstal-rotterdam-2011-2013.csv"));
         
         return allLists;
+    }
+
+    Parser(params string[] pathsArray)
+    {
+        List<String> pathsList = new List<String>();
+
+        for (int i = 0; i < pathsArray.Length; i++)
+        {
+            pathsList.Add(pathsArray[i]);
+        }
+
+        this.paths = pathsList;
     }
 }
