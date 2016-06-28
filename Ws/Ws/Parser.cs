@@ -51,11 +51,7 @@ public class Parser
 
         for (int i = 0; i < filenameArray.Length; i++)
         {
-            string path = Environment.GetFolderPath(Environment.SpecialFolder.Personal);
-            string assets = "assets";
-            string finalPath = Path.Combine(path, assets);
-            string finalFilename = Path.Combine(finalPath, filenameArray[i]);
-            fns.Add(finalFilename);
+            fns.Add(filenameArray[i]);
         }
 
         this.filenames = fns; // test

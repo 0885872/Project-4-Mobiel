@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<resources>
-    <string name="Informatie">Informatie</string>
-    <string name="ApplicationName">Ws</string>
-    <string name="OpslaanLocatie">Opslaan Locatie</string>
-    <string name="BekijkLocatie">Bekijk Locatie</string>
-
-    <string name="Locatie">Locatie</string>
-</resources>
