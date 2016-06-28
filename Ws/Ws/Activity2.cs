@@ -12,14 +12,14 @@ using Android.Widget;
 
 namespace Ws
 {
-  [Activity(Label = "Informatie")]
-  public class Activity1 : Activity
-  { 
-    protected override void OnCreate(Bundle bundle)
+  [Activity(Label = "Opslaan Locatie")]
+  public class Activity2 : Activity
+  {
+    protected override void OnCreate(Bundle savedInstanceState)
     {
-      base.OnCreate(bundle);
+      base.OnCreate(savedInstanceState);
 
-      SetContentView(Resource.Layout.layout1);
+      SetContentView(Resource.Layout.layout2);
       // Create your application here
     }
   }
