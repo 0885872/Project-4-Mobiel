@@ -4,24 +4,24 @@ using System.Collections.Generic;
 
 public class Parser
 {
-    private List<String> filenames;
+    private string filename;
 
-    public List<List<String>> readCSV(StreamReader reader)
+    private List<List<string>> readCSV(StreamReader reader)
     {
-        List<List<String>> convertedCSV = new List<List<string>>();
+        List<List<string>> convertedCSV = new List<List<string>>();
 
         while (!reader.EndOfStream)
         {
-            String line = reader.ReadLine();
+            string line = reader.ReadLine();
             string[] values = line.Split(',');
-            List<String> listValues = new List<String>(values);
+            List<string> listValues = new List<string>(values);
             convertedCSV.Add(listValues);
         }
 
         return convertedCSV;
     }
 
-    public List<List<String>> CSVLoader(string filename)
+    public List<List<string>> CSVLoader()
     {
         string path = Environment.GetFolderPath(Environment.SpecialFolder.Personal);
         string assets = "assets";
@@ -32,28 +32,102 @@ public class Parser
         return readCSV(newReader);
     }
 
-    public List<List<List<String>>> AllCVS()
+    public List<Tuple<string, int>> sum(string targetColumn, int amount)
     {
-        List<List<List<String>>> allLists = new List<List<List<String>>>();
+        List<List<string>> csv = this.CSVLoader();
+        List<Tuple<string, int>> sumTuples = new List<Tuple<string, int>>();
+        Dictionary<string, int> columnSumPairs = new Dictionary<string, int>();
 
-        for (int i = 0; i < filenames.Count; i++)
+        bool first = true;
+        int columnIndex = -1;
+
+        for(int i = 0; i < csv[0].Count; i++)
         {
-            List<List<String>> newList = CSVLoader(filenames[i]);
-            allLists.Add(newList);
+            if (csv[0][i] == targetColumn)
+            {
+                columnIndex = i;
+            }
         }
 
-        return allLists;
+        foreach(List<string> row in csv)
+        {
+            if (first)
+            {
+                first = false;
+                continue;
+            }
+
+            if (row[columnIndex] != "")
+            {
+                columnSumPairs[row[columnIndex]] = columnSumPairs[row[columnIndex]] + 1;
+            }
+        }
+
+        for (int i = 0; i < amount; i++)
+        {
+            string currentCellValue = "";
+            int currentHighest = 0;
+
+            if(columnSumPairs.Count == 0)
+            {
+                break;
+            }
+
+            foreach(KeyValuePair<string, int> entry in columnSumPairs)
+            {
+                if(entry.Value > currentHighest)
+                {
+                    currentCellValue = entry.Key;
+                }
+            }
+
+            Tuple<string, int> newTuple = new Tuple<string, int>(currentCellValue, columnSumPairs[currentCellValue);
+            sumTuples.Add(newTuple);
+            columnSumPairs.Remove(currentCellValue);
+        }
+
+        return sumTuples;
     }
 
-    Parser(params string[] filenameArray)
+    public List<List<string>> map(string targetColumn, Func<string, string> func)
     {
-        List<String> fns = new List<String>();
+        List<List<string>> csv = this.CSVLoader();
 
-        for (int i = 0; i < filenameArray.Length; i++)
+        return map(csv, targetColumn, func);
+    }
+
+    public List<List<string>> map(List<List<string>> csv, string targetColumn, Func<string, string> func)
+    {
+        List<List<string>> table = new List<List<string>>();
+        bool first = true;
+        int columnIndex = -1;
+
+        for (int i = 0; i < csv[0].Count; i++)
         {
-            fns.Add(filenameArray[i]);
+            if (csv[0][i] == targetColumn)
+            {
+                columnIndex = i;
+            }
         }
 
-        this.filenames = fns; // test
+        foreach (List<string> row in csv)
+        {
+            if (first)
+            {
+                first = false;
+                table.Add(row);
+            } else
+            {
+                row[columnIndex] = func(row[columnIndex]);
+                table.Add(row);
+            }
+        }
+
+        return table;
+    }
+
+    Parser(string fn)
+    {
+        this.filename = fn;
     }
 }
