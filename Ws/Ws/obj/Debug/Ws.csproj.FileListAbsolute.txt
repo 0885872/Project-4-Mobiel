@@ -76,4 +76,4 @@ C:\Users\Evelyn\Documents\GitHubVisualStudio\Project-4-Mobiel\Ws\Ws\obj\Debug\an
 C:\Users\Evelyn\Documents\GitHubVisualStudio\Project-4-Mobiel\Ws\Ws\obj\Debug\android\assets\System.Xml.Linq.dll.mdb
 C:\Users\Evelyn\Documents\GitHubVisualStudio\Project-4-Mobiel\Ws\Ws\obj\Debug\android\assets\Ws.dll.mdb
 C:\Users\Evelyn\Documents\GitHubVisualStudio\Project-4-Mobiel\Ws\Ws\obj\Debug\Ws.dll.mdb
-C:\Users\Evelyn\Documents\GitHubVisualStudio\Project-4-Mobiel\Ws\Ws\bin\Debug\Ws.dll.mdb
+C:\Users\vboz\Source\Repos\Project-4-Mobiel2\Ws\Ws\obj\Debug\Ws.csprojResolveAssemblyReference.cache
