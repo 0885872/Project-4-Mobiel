@@ -36,6 +36,8 @@ namespace Ws
       {
         StartActivity(typeof(Activity3));
       };
+
+      //Button button4 = FindViewById<Button>(Resource.Id > BekijkLocatieButton);
     }
   }
 }

@@ -48,9 +48,18 @@ C:\Users\Evelyn\Documents\GitHubVisualStudio\Project-4-Mobiel\Ws\Ws\obj\Debug\an
 C:\Users\Evelyn\Documents\GitHubVisualStudio\Project-4-Mobiel\Ws\Ws\obj\Debug\res\layout\layout1.xml
 C:\Users\Evelyn\Documents\GitHubVisualStudio\Project-4-Mobiel\Ws\Ws\obj\Debug\res\layout\main.xml
 C:\Users\Evelyn\Documents\GitHubVisualStudio\Project-4-Mobiel\Ws\Ws\obj\Debug\res\values\strings.xml
-C:\Users\Evelyn\Documents\GitHubVisualStudio\Project-4-Mobiel\Ws\Ws\obj\Debug\res\drawable\icon.png
 C:\Users\Evelyn\Documents\GitHubVisualStudio\Project-4-Mobiel\Ws\Ws\obj\Debug\R.cs.flag
 C:\Users\Evelyn\Documents\GitHubVisualStudio\Project-4-Mobiel\Ws\Ws\obj\Debug\uploadflags.txt
+C:\Users\vboz\Source\Repos\Project-4-Mobiel2\Ws\Ws\obj\Debug\Ws.csprojResolveAssemblyReference.cache
+C:\Users\Evelyn\Documents\GitHubVisualStudio\Project-4-Mobiel\Ws\Ws\bin\Debug\Xamarin.Android.Support.v4.dll
+C:\Users\Evelyn\Documents\GitHubVisualStudio\Project-4-Mobiel\Ws\Ws\bin\Debug\Xamarin.GooglePlayServices.Base.dll
+C:\Users\Evelyn\Documents\GitHubVisualStudio\Project-4-Mobiel\Ws\Ws\bin\Debug\Xamarin.GooglePlayServices.Basement.dll
+C:\Users\Evelyn\Documents\GitHubVisualStudio\Project-4-Mobiel\Ws\Ws\bin\Debug\Xamarin.GooglePlayServices.Location.dll
+C:\Users\Evelyn\Documents\GitHubVisualStudio\Project-4-Mobiel\Ws\Ws\bin\Debug\Xamarin.GooglePlayServices.Maps.dll
+C:\Users\Evelyn\Documents\GitHubVisualStudio\Project-4-Mobiel\Ws\Ws\obj\Debug\res\layout\layout2.xml
+C:\Users\Evelyn\Documents\GitHubVisualStudio\Project-4-Mobiel\Ws\Ws\obj\Debug\res\layout\layout3.xml
+C:\Users\Evelyn\Documents\GitHubVisualStudio\Project-4-Mobiel\Ws\Ws\bin\Debug\Ws.dll.mdb
+C:\Users\Evelyn\Documents\GitHubVisualStudio\Project-4-Mobiel\Ws\Ws\obj\Debug\res\drawable\icon
 C:\Users\Evelyn\Documents\GitHubVisualStudio\Project-4-Mobiel\Ws\Ws\bin\Debug\Java.Interop.dll.mdb
 C:\Users\Evelyn\Documents\GitHubVisualStudio\Project-4-Mobiel\Ws\Ws\bin\Debug\Mono.Android.dll.mdb
 C:\Users\Evelyn\Documents\GitHubVisualStudio\Project-4-Mobiel\Ws\Ws\bin\Debug\mscorlib.dll.mdb
@@ -62,7 +71,6 @@ C:\Users\Evelyn\Documents\GitHubVisualStudio\Project-4-Mobiel\Ws\Ws\bin\Debug\Sy
 C:\Users\Evelyn\Documents\GitHubVisualStudio\Project-4-Mobiel\Ws\Ws\bin\Debug\System.ServiceModel.Internals.dll.mdb
 C:\Users\Evelyn\Documents\GitHubVisualStudio\Project-4-Mobiel\Ws\Ws\bin\Debug\System.Xml.dll.mdb
 C:\Users\Evelyn\Documents\GitHubVisualStudio\Project-4-Mobiel\Ws\Ws\bin\Debug\System.Xml.Linq.dll.mdb
-C:\Users\Evelyn\Documents\GitHubVisualStudio\Project-4-Mobiel\Ws\Ws\bin\Debug\Ws.dll.mdb
 C:\Users\Evelyn\Documents\GitHubVisualStudio\Project-4-Mobiel\Ws\Ws\obj\Debug\android\assets\Java.Interop.dll.mdb
 C:\Users\Evelyn\Documents\GitHubVisualStudio\Project-4-Mobiel\Ws\Ws\obj\Debug\android\assets\Mono.Android.dll.mdb
 C:\Users\Evelyn\Documents\GitHubVisualStudio\Project-4-Mobiel\Ws\Ws\obj\Debug\android\assets\mscorlib.dll.mdb
@@ -76,4 +84,4 @@ C:\Users\Evelyn\Documents\GitHubVisualStudio\Project-4-Mobiel\Ws\Ws\obj\Debug\an
 C:\Users\Evelyn\Documents\GitHubVisualStudio\Project-4-Mobiel\Ws\Ws\obj\Debug\android\assets\System.Xml.Linq.dll.mdb
 C:\Users\Evelyn\Documents\GitHubVisualStudio\Project-4-Mobiel\Ws\Ws\obj\Debug\android\assets\Ws.dll.mdb
 C:\Users\Evelyn\Documents\GitHubVisualStudio\Project-4-Mobiel\Ws\Ws\obj\Debug\Ws.dll.mdb
-C:\Users\vboz\Source\Repos\Project-4-Mobiel2\Ws\Ws\obj\Debug\Ws.csprojResolveAssemblyReference.cache
+C:\Users\Evelyn\Documents\GitHubVisualStudio\Project-4-Mobiel\Ws\Ws\bin\Debug\Ws.dll.mdb

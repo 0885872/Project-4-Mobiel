@@ -16,6 +16,7 @@ namespace Ws
   [Activity(Label = "Bekijk Locatie")]
   public class Activity3 : Activity, IOnMapReadyCallback
   {
+    private GoogleMap mMap;
     protected override void OnCreate(Bundle bundle)
     {
       base.OnCreate(bundle);
