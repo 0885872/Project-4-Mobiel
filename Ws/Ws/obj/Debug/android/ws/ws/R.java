@@ -323,6 +323,7 @@ containing a value of this type.
         public static final int JijBaasButton=0x7f08000e;
         public static final int LocatieButton=0x7f08000d;
         public static final int OpslaanLocatieButton=0x7f080011;
+        public static final int ParserTestButton=0x7f080013;
         public static final int adjust_height=0x7f080005;
         public static final int adjust_width=0x7f080006;
         public static final int auto=0x7f08000a;
@@ -333,14 +334,14 @@ containing a value of this type.
         public static final int map=0x7f08000f;
         public static final int none=0x7f080001;
         public static final int normal=0x7f080002;
-        public static final int place_autocomplete_clear_button=0x7f080015;
-        public static final int place_autocomplete_powered_by_google=0x7f080017;
-        public static final int place_autocomplete_prediction_primary_text=0x7f080019;
-        public static final int place_autocomplete_prediction_secondary_text=0x7f08001a;
-        public static final int place_autocomplete_progress=0x7f080018;
-        public static final int place_autocomplete_search_button=0x7f080013;
-        public static final int place_autocomplete_search_input=0x7f080014;
-        public static final int place_autocomplete_separator=0x7f080016;
+        public static final int place_autocomplete_clear_button=0x7f080016;
+        public static final int place_autocomplete_powered_by_google=0x7f080018;
+        public static final int place_autocomplete_prediction_primary_text=0x7f08001a;
+        public static final int place_autocomplete_prediction_secondary_text=0x7f08001b;
+        public static final int place_autocomplete_progress=0x7f080019;
+        public static final int place_autocomplete_search_button=0x7f080014;
+        public static final int place_autocomplete_search_input=0x7f080015;
+        public static final int place_autocomplete_separator=0x7f080017;
         public static final int satellite=0x7f080003;
         public static final int standard=0x7f080008;
         public static final int terrain=0x7f080004;
@@ -366,6 +367,7 @@ containing a value of this type.
         public static final int JijBaas=0x7f060026;
         public static final int Locatie=0x7f060025;
         public static final int OpslaanLocatie=0x7f060023;
+        public static final int ParserTest=0x7f060028;
         /**  Brand name for Facebook [DO NOT TRANSLATE] 
          */
         public static final int auth_google_play_services_client_facebook_display_name=0x7f060003;

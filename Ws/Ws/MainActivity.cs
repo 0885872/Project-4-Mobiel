@@ -37,7 +37,11 @@ namespace Ws
         StartActivity(typeof(Activity3));
       };
 
-      //Button button4 = FindViewById<Button>(Resource.Id > BekijkLocatieButton);
+      Button button4 = FindViewById<Button>(Resource.Id.ParserTestButton);
+      button4.Click += delegate
+      {
+          StartActivity(typeof(ParserTestActivity));
+      };
     }
   }
 }

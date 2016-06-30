@@ -419,6 +419,9 @@ namespace Ws
 			// aapt resource value: 0x7f080011
 			public const int OpslaanLocatieButton = 2131230737;
 			
+			// aapt resource value: 0x7f080013
+			public const int ParserTestButton = 2131230739;
+			
 			// aapt resource value: 0x7f080005
 			public const int adjust_height = 2131230725;
 			
@@ -449,29 +452,29 @@ namespace Ws
 			// aapt resource value: 0x7f080002
 			public const int normal = 2131230722;
 			
-			// aapt resource value: 0x7f080015
-			public const int place_autocomplete_clear_button = 2131230741;
-			
-			// aapt resource value: 0x7f080017
-			public const int place_autocomplete_powered_by_google = 2131230743;
-			
-			// aapt resource value: 0x7f080019
-			public const int place_autocomplete_prediction_primary_text = 2131230745;
-			
-			// aapt resource value: 0x7f08001a
-			public const int place_autocomplete_prediction_secondary_text = 2131230746;
+			// aapt resource value: 0x7f080016
+			public const int place_autocomplete_clear_button = 2131230742;
 			
 			// aapt resource value: 0x7f080018
-			public const int place_autocomplete_progress = 2131230744;
+			public const int place_autocomplete_powered_by_google = 2131230744;
 			
-			// aapt resource value: 0x7f080013
-			public const int place_autocomplete_search_button = 2131230739;
+			// aapt resource value: 0x7f08001a
+			public const int place_autocomplete_prediction_primary_text = 2131230746;
+			
+			// aapt resource value: 0x7f08001b
+			public const int place_autocomplete_prediction_secondary_text = 2131230747;
+			
+			// aapt resource value: 0x7f080019
+			public const int place_autocomplete_progress = 2131230745;
 			
 			// aapt resource value: 0x7f080014
-			public const int place_autocomplete_search_input = 2131230740;
+			public const int place_autocomplete_search_button = 2131230740;
 			
-			// aapt resource value: 0x7f080016
-			public const int place_autocomplete_separator = 2131230742;
+			// aapt resource value: 0x7f080015
+			public const int place_autocomplete_search_input = 2131230741;
+			
+			// aapt resource value: 0x7f080017
+			public const int place_autocomplete_separator = 2131230743;
 			
 			// aapt resource value: 0x7f080003
 			public const int satellite = 2131230723;
@@ -568,6 +571,9 @@ namespace Ws
 			
 			// aapt resource value: 0x7f060023
 			public const int OpslaanLocatie = 2131099683;
+			
+			// aapt resource value: 0x7f060028
+			public const int ParserTest = 2131099688;
 			
 			// aapt resource value: 0x7f060003
 			public const int auth_google_play_services_client_facebook_display_name = 2131099651;
