@@ -11,11 +11,11 @@ namespace Ws
     {
         private AssetManager assets;
 
-        public List<List<string>> readCSV()
+        public List<List<string>> readCSV(string filename)
         {
             List<List<string>> convertedCSV = new List<List<string>>();
 
-            StreamReader streamReader = new StreamReader(assets.Open("fietstrommels.csv"));
+            StreamReader streamReader = new StreamReader(assets.Open(filename));
             string line;
 
             while ((line = streamReader.ReadLine()) != null)
@@ -31,9 +31,9 @@ namespace Ws
             return convertedCSV;
         }
 
-        public List<Tuple<string, int>> sum(string targetColumn, int amount)
+        public List<Tuple<string, int>> sum(string filename, string targetColumn, int amount)
         {
-            List<List<string>> csv = this.readCSV();
+            List<List<string>> csv = this.readCSV(filename);
             List<Tuple<string, int>> sumTuples = new List<Tuple<string, int>>();
             Dictionary<string, int> columnSumPairs = new Dictionary<string, int>();
 
@@ -93,9 +93,9 @@ namespace Ws
             return sumTuples;
         }
 
-        public List<List<string>> map(string targetColumn, Func<string, string> func)
+        public List<List<string>> map(string filename, string targetColumn, Func<string, string> func)
         {
-            List<List<string>> csv = readCSV();
+            List<List<string>> csv = readCSV(filename);
 
             Console.WriteLine("Starting row count of original: " + csv.Count);
 

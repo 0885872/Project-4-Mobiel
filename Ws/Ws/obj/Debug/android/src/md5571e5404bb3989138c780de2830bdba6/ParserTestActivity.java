@@ -2,7 +2,7 @@ package md5571e5404bb3989138c780de2830bdba6;
 
 
 public class ParserTestActivity
-	extends android.app.Activity
+	extends android.app.ListActivity
 	implements
 		mono.android.IGCUserPeer
 {
