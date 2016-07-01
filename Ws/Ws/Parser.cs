@@ -63,7 +63,13 @@ namespace Ws
 
                 if (row[columnIndex] != "")
                 {
-                    columnSumPairs[row[columnIndex]] = columnSumPairs[row[columnIndex]] + 1;
+                    if (columnSumPairs.ContainsKey(targetColumn))
+                    {
+                        columnSumPairs[targetColumn] = columnSumPairs[targetColumn] + 1;
+                    } else
+                    {
+                        columnSumPairs[targetColumn] = 1;
+                    }
                 }
             }
 
