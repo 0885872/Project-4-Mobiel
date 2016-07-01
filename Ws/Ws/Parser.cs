@@ -20,7 +20,6 @@ namespace Ws
 
             while ((line = streamReader.ReadLine()) != null)
             {
-                Console.WriteLine("Parsing row...");
                 string[] values = line.Split(',');
                 List<string> listValues = new List<string>(values);
                 convertedCSV.Add(listValues);
@@ -48,10 +47,16 @@ namespace Ws
                 }
             }
 
+            Console.WriteLine("Metadata");
+            Console.WriteLine("Index: " + columnIndex);
+            Console.WriteLine(csv[0][columnIndex]);
+
             if (columnIndex == -1)
             {
                 throw new System.IndexOutOfRangeException("Targeted column does not exist in list.");
             }
+
+            int properCount = csv[0].Count;
 
             foreach (List<string> row in csv)
             {
@@ -61,14 +66,14 @@ namespace Ws
                     continue;
                 }
 
-                if (row[columnIndex] != "")
+                if (row.Count == properCount && row[columnIndex] != "")
                 {
-                    if (columnSumPairs.ContainsKey(targetColumn))
+                    if (columnSumPairs.ContainsKey(row[columnIndex]))
                     {
-                        columnSumPairs[targetColumn] = columnSumPairs[targetColumn] + 1;
+                        columnSumPairs[row[columnIndex]] = columnSumPairs[row[columnIndex]] + 1;
                     } else
                     {
-                        columnSumPairs[targetColumn] = 1;
+                        columnSumPairs[row[columnIndex]] = 1;
                     }
                 }
             }
@@ -87,6 +92,7 @@ namespace Ws
                 {
                     if (entry.Value > currentHighest)
                     {
+                        currentHighest = entry.Value;
                         currentCellValue = entry.Key;
                     }
                 }
@@ -94,6 +100,9 @@ namespace Ws
                 Tuple<string, int> newTuple = new Tuple<string, int>(currentCellValue, columnSumPairs[currentCellValue]);
                 sumTuples.Add(newTuple);
                 columnSumPairs.Remove(currentCellValue);
+
+                currentCellValue = "";
+                currentHighest = 0;
             }
 
             return sumTuples;
@@ -126,13 +135,11 @@ namespace Ws
             {
                 if (first)
                 {
-                    Console.WriteLine("Not performing operations on first row...");
                     first = false;
                     table.Add(row);
                 }
                 else
                 {
-                    Console.WriteLine("Adding row...");
                     row[columnIndex] = func(row[columnIndex]);
                     table.Add(row);
                 }
