@@ -55,10 +55,10 @@ namespace Ws
             return convertedCSV;
         }
 
-        public List<Tuple<string, int>> sum(string filename, string targetColumn, int amount, List<List<string>> oldCSV = new List<List<string>>)
+        public List<Tuple<string, int>> sum(string filename, string targetColumn, int amount, List<List<string>> oldCSV = null)
         {
             List<List<string>> csv = new List<List<string>>();
-            if (oldCSV.Count == 0)
+            if (oldCSV == null)
             {
                 csv = this.readCSV(filename);
             }
