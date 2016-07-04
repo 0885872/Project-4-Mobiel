@@ -55,9 +55,14 @@ namespace Ws
             return convertedCSV;
         }
 
-        public List<Tuple<string, int>> sum(string filename, string targetColumn, int amount)
+        public List<Tuple<string, int>> sum(string filename, string targetColumn, int amount, List<List<string>> oldCSV = new List<List<string>>)
         {
-            List<List<string>> csv = this.readCSV(filename);
+            List<List<string>> csv = new List<List<string>>();
+            if (oldCSV.Count == 0)
+            {
+                csv = this.readCSV(filename);
+            }
+
             List<Tuple<string, int>> sumTuples = new List<Tuple<string, int>>();
             Dictionary<string, int> columnSumPairs = new Dictionary<string, int>();
 
