@@ -72,12 +72,14 @@
     <Compile Include="Activity1.cs" />
     <Compile Include="Activity2.cs" />
     <Compile Include="Activity3.cs" />
+    <Compile Include="Factories.cs" />
     <Compile Include="MainActivity.cs" />
     <Compile Include="Options.cs" />
     <Compile Include="Parser.cs" />
     <Compile Include="ParserTestActivity.cs" />
     <Compile Include="Resources\Resource.Designer.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Types.cs" />
   </ItemGroup>
   <ItemGroup>
     <AndroidAsset Include="fietstrommels.csv" />
