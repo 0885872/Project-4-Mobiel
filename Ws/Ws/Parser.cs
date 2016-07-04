@@ -4,9 +4,34 @@ using System.Collections.Generic;
 using Android;
 using Android.Content;
 using Android.Content.Res;
+using Patterns;
 
 namespace Ws
 {
+    public class CSVIterator : Iterator<List<string>>
+    {
+        private int index = -1;
+        private List<List<string>> csv;
+
+        public Option<List<string>> GetNext()
+        {
+            index = index + 1;
+
+            if (index < csv.Count)
+            {
+                return new Some<List<string>>(csv[index]);
+            } else
+            {
+                return new None<List<string>>();
+            }
+        }
+
+        public void Reset()
+        {
+            index = -1;
+        }
+    }
+
     public class CSVParser
     {
         private AssetManager assets;

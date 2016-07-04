@@ -1,6 +1,6 @@
 using System;
 
-namespace Options
+namespace Patterns
 {
     public interface Option<T>
     {
@@ -56,4 +56,16 @@ namespace Options
             return onNone();
         }
     }
+
+    //
+
+    interface Iterator<T>
+    {
+        Option<T> GetNext();
+        void Reset();
+    }
+
+    //
+
+
 }
